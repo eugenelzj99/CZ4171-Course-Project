@@ -1,0 +1,50 @@
+PS C:\Users\Admin\Desktop\.venv> & C:/Users/Admin/Desktop/.venv/Scripts/python.exe c:/Users/Admin/Desktop/server.py
+c:\Users\Admin\Desktop\server.py:24: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.       
+
+
+  data['label'].replace("spam", "Scam", inplace=True)
+c:\Users\Admin\Desktop\server.py:25: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.       
+
+
+  data['label'].replace("ham", "Legitimate", inplace=True)
+Model Train - Start
+Training Data : (4457,)
+Testing Data :  (1115,)
+Accuracy Score : 0.8860986547085202
+Model Train - End
+ * Serving Flask app 'server'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server 
+instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+Press CTRL+C to quit   
+ * Restarting with stat
+c:\Users\Admin\Desktop\server.py:24: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.       
+
+
+  data['label'].replace("spam", "Scam", inplace=True)
+c:\Users\Admin\Desktop\server.py:25: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.       
+
+
+  data['label'].replace("ham", "Legitimate", inplace=True)
+Model Train - Start
+Training Data : (4457,)
+Testing Data :  (1115,)
+Accuracy Score : 0.8860986547085202
+Model Train - End
+ * Debugger is active!
+ * Debugger PIN: 871-043-068
